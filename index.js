@@ -13,12 +13,13 @@ const priceUrl = 'https://oilprice.com/ajax/get_chart_prices/';
 
 
 
+const getPrices = () => {
+	return fetch(priceUrl)
+	.then(res=> res.json())
+	.then(json=> console.log(json))
+}
 
-fetch(priceUrl)
-    .then(res => res.json())
-    .then(function(data){
-    	var prices = data
-    	console.log(prices)
-    })
-    .catch(function(err) { console.log(err); })
 
+
+var test = getPrices()
+console.log(test)
