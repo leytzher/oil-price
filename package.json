@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/leytzher/oil-price/issues"
   },
-  "homepage": "https://github.com/leytzher/oil-price#readme"
+  "homepage": "https://github.com/leytzher/oil-price#readme",
+  "dependencies": {
+    "node-fetch": "^2.1.2"
+  }
 }
