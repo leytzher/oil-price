@@ -1,0 +1,29 @@
+{
+  "name": "oil-price",
+  "version": "1.0.0",
+  "description": "Get latest oil and natural gas prices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leytzher/oil-price.git"
+  },
+  "keywords": [
+    "oil",
+    "price",
+    "gas",
+    "price",
+    "WTI",
+    "Brent",
+    "Natural",
+    "Gas"
+  ],
+  "author": "LMuro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leytzher/oil-price/issues"
+  },
+  "homepage": "https://github.com/leytzher/oil-price#readme"
+}
