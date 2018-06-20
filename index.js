@@ -18,6 +18,6 @@ request(priceUrl, (error, response, body) => {
   }
 
   console.log(
-    `The WTI price is ${wtiPrice} USD, ${trend} within the last 15 minutes`
+    `The WTI price is ${wtiPrice} USD, ${trend} with respect to the last price.`
   );
 });
